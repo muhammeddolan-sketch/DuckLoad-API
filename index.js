@@ -35,7 +35,7 @@ app.get('/', (req, res) => {
   res.json({ status: 'DuckLoad API çalışıyor 🦆' });
 });
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`DuckLoad API port ${PORT} üzerinde çalışıyor`);
 });
